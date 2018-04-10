@@ -38,15 +38,12 @@ class Data {
 			e.printStackTrace();
 		}		
 	}
-	
-	
-	
-	
+		
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Data d = new Data("D:\\课程学习资料\\我的编程研究\\黄金价格预测\\goldPrice.txt");
+		Data d = new Data("D:\\璇剧▼瀛︿範璧勬枡\\鎴戠殑缂栫▼鐮旂┒\\榛勯噾浠锋牸棰勬祴\\goldPrice.txt");
 
 		Mat.printMat(d.allData);
 	}
